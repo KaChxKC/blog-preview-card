@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog preview card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      background-color: white;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 10px 10px black;
+      border: 1px solid;
+      margin-top: 7%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      background-color: hsl(47, 88%, 63%);
+      align-items: center;
+      align-content: center;
+      font-family: "Figtree", sans-serif;
+    }
+
+    img {
+      border-radius: 14px;
+    }
+
+    button {
+      padding: 8px;
+      background-color: hsl(47, 88%, 63%);
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 14px;
+      margin-bottom: 14px;
+    }
+
+    .heading {
+      font-weight: 800;
+      font-size: larger;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 60;
+      color: hsl(0, 0%, 42%)
+    }
+
+    .user {
+      font-weight: 500;
+      display: flex;
+    }
+
+    .user img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .acc_name {
+      margin-top: 5px;
+      margin-left: 10;
+      font-weight: bold;
+    }
+
+    h3:hover {
+      color: hsl(47, 88%, 63%)
+    }
+
+    button:hover {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="image"><img src="./illustration-article.svg"></div>
+    <div class="butt"><button>Learning</button></div>
+
+    <div>Published 21 Dec 2023</div>
+
+    <div class="heading">
+      <h3>HTML & CSS foundations</h3>
+    </div>
+
+    <div>
+      <p>These languages are the backbone of every<br> website, defining structure, content, and<br> presentation.</p>
+    </div>
+
+    <div class="user">
+      <div class="acc_img"><img src="./asset_rdr2.webp"></div>
+      <div class="acc_name">KaCh</div>
+    </div>
+  </div>
+</body>
+
+</html>
