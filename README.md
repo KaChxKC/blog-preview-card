@@ -1,6 +1,6 @@
 # Blog Preview Card
 
-A responsive blog preview card built using pure HTML and CSS from frontendmentor.io
+A responsive blog preview card built using pure HTML and CSS inspired from frontendmentor.io
 
 ## Features
 
@@ -18,8 +18,7 @@ A responsive blog preview card built using pure HTML and CSS from frontendmentor
 
 ## Preview
 
-<img width="621" height="715" alt="image" src="https://github.com/user-attachments/assets/ca1141c0-29ad-4e54-a61a-144523e6bfc1" />
-
+<img width="350" height="420" alt="image" src="https://github.com/user-attachments/assets/ca1141c0-29ad-4e54-a61a-144523e6bfc1" />
 
 ## Built With
 
